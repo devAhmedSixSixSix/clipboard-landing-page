@@ -1,0 +1,246 @@
+/* start global rulse */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  text-align: center;
+  line-height: 1.7;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+@media (max-width: 991px) {
+  .flex {
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+}
+
+h2,
+h3 {
+  color: hsl(210, 10%, 33%);
+}
+
+p {
+  padding: 22px 0;
+  color: hsl(201, 11%, 66%);
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 33px;
+  display: block;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* small screen size */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* medium screen size */
+
+@media (min-width: 929px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* large screen size */
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+/* end global rulse */
+
+/* start landing */
+
+.landing {
+  background-image: url(../images/bg-header-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 0 100px 0;
+}
+
+@media (max-width: 480px) {
+  .landing {
+    background-image: url(../images/bg-header-mobile.png);
+  }
+}
+
+.landing img {
+  width: 200px;
+  padding: 33px 0;
+}
+
+.landing button:first-of-type,
+.landing button:last-of-type {
+  color: #fff;
+  display: inline;
+  padding: 11px 44px;
+  margin-bottom: 22px;
+}
+
+.landing button:first-of-type {
+  background-color: hsl(171, 66%, 44%);
+}
+.landing button:last-of-type {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* end landing */
+
+/* start track */
+
+.track {
+  padding: 100px;
+}
+
+.track .holder .image img {
+  width: 100%;
+  position: relative;
+  right: 144px;
+}
+
+@media (max-width: 991px) {
+  .track .holder .image img {
+    margin: auto;
+    right: 0;
+  }
+}
+
+/* 771px 991px */
+
+.track .holder .text {
+  text-align: left;
+}
+
+@media (max-width: 991px) {
+  .track .holder {
+    flex-direction: column;
+  }
+  .track .holder .text {
+    text-align: center;
+  }
+}
+
+/* end track */
+
+/* start access */
+
+.access {
+  padding: 100px 0;
+}
+
+.access img {
+  width: 80%;
+}
+
+/* end access */
+
+/* start supercharge */
+
+.supercharge {
+  padding: 100px 0;
+}
+
+.supercharge .boxs .box img {
+  padding-bottom: 22px;
+}
+
+.supercharge .holder {
+  padding: 100px 0 0;
+}
+
+@media (max-width: 991px) {
+  .supercharge .holder {
+    flex-direction: column;
+  }
+}
+
+/* end supercharge */
+
+/* start download-app */
+
+.download-app {
+  padding: 100px 0;
+}
+
+.download-app button:first-of-type,
+.download-app button:last-of-type {
+  color: #fff;
+  display: inline;
+  padding: 11px 44px;
+  margin-bottom: 22px;
+}
+
+.download-app button:first-of-type {
+  background-color: hsl(171, 66%, 44%);
+}
+.download-app button:last-of-type {
+  background-color: hsl(233, 100%, 69%);
+}
+
+/* end download-app */
+
+/* start footer */
+
+.footer {
+  padding: 100px 0;
+  background-color: #f5f6f8;
+}
+
+@media (max-width: 991px) {
+  .footer .container {
+    flex-direction: column;
+    gap: 11px;
+  }
+
+  .footer .container img[alt="logo"] {
+    width: 99px;
+  }
+
+  .footer .container ul li {
+    padding-bottom: 22px;
+  }
+
+  .footer .container span {
+    padding-bottom: 22px;
+  }
+}
+
+.footer .container ul:last-of-type {
+  gap: 22px;
+}
+
+.attribution {
+  background-color: black;
+  color: #fff;
+  padding: 11px;
+}
+
+/* end footer */
