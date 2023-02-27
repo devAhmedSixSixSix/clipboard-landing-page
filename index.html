@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Clipboard landing page</title>
 
   <!-- google fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap" rel="stylesheet">
 
-<!-- style files -->
-<link rel="stylesheet" href="css/main.css">
+  <!-- style files -->
+  <link rel="stylesheet" href="css/main.css">
 
 </head>
+
 <body>
 
   <!-- start landing -->
-  <div class="landing">
+  <div class="landing fade-in">
     <div class="container">
       <img src="images/logo.svg" alt="logo">
       <h2>A history of everything you copy</h2>
       <p>Clipboard allows you to track and organize everything you
-      copy. Instantly access your clipboard on all your devices.</p>
+        copy. Instantly access your clipboard on all your devices.</p>
       <button>Download for iOS</button>
       <button>Download for Mac</button>
     </div>
@@ -33,12 +35,12 @@
 
   <!-- start track -->
 
-  <div class="track">
+  <div class="track fade-in">
     <div class="container">
       <h2>Keep track of your snippets</h2>
       <p>Clipboard instantly stores any item you copy in the cloud,
-      meaning you can access your snippets immediately on all your
-      devices. Our Mac and iOS apps will help you organize everything.</p>
+        meaning you can access your snippets immediately on all your
+        devices. Our Mac and iOS apps will help you organize everything.</p>
       <div class="holder flex">
         <div class="image">
           <img src="images/image-computer.png" alt="image-computer">
@@ -52,18 +54,18 @@
           <p>Retrieve any snippets from the first moment you started using the app.</p>
         </div>
       </div>
-      </div>
+    </div>
   </div>
 
   <!-- end track -->
 
   <!-- start access -->
 
-  <div class="access">
+  <div class="access fade-in">
     <div class="container">
       <h2>Access Clipboard anywhere</h2>
       <p>Whether you’re on the go, or at your computer, you can access all your Clipboard
-      snippets in a few simple clicks.</p>
+        snippets in a few simple clicks.</p>
       <img src="images/image-devices.png" alt="image-devices">
     </div>
   </div>
@@ -72,7 +74,7 @@
 
   <!-- start supercharge -->
 
-  <div class="supercharge">
+  <div class="supercharge fade-in">
     <div class="container">
       <h2>Supercharge your workflow</h2>
       <p>We’ve got the tools to boost your productivity.</p>
@@ -107,11 +109,11 @@
 
   <!-- start download-app -->
 
-  <div class="download-app">
+  <div class="download-app fade-in">
     <div class="container">
       <h2>Clipboard for iOS and Mac OS</h2>
       <p>Available for free on the App Store. Download for Mac or iOS, sync with iCloud
-      and you’re ready to start adding to your clipboard.</p>
+        and you’re ready to start adding to your clipboard.</p>
       <button>Download for iOS</button>
       <button>Download for Mac</button>
     </div>
@@ -125,14 +127,15 @@
     <div class="container flex">
       <img src="images/logo.svg" alt="logo">
       <ul>
-        <li>FAQs</li>
-        <li>Contact Us</li>
+        <li class="pointer">Contact Us</li>
+        <li class="pointer">FAQs</li>
+        <li class="pointer">Privacy Policy</li>
       </ul>
       <ul>
-        <li>Privacy Policy</li>
-        <li>Press Kit</li>
+        <li class="pointer">Press Kit</li>
+        <li class="pointer">Install Guide</li>
       </ul>
-      <span>Install Guide</span>
+      <span></span>
       <ul class="flex">
         <li><img src="images/icon-facebook.svg" alt="icon-facebook"></li>
         <li><img src="images/icon-twitter.svg" alt="icon-twitte"></li>
@@ -142,5 +145,8 @@
   </div>
 
   <!-- end footer -->
+
+  <script src="./main.js"></script>
 </body>
+
 </html>

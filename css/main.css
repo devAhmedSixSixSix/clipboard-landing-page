@@ -11,6 +11,7 @@ body {
   font-family: "Bai Jamjuree", sans-serif;
   text-align: center;
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 .flex {
@@ -46,6 +47,11 @@ button {
   outline: none;
   border-radius: 33px;
   display: block;
+  cursor: pointer;
+}
+
+.pointer{
+  cursor: pointer;
 }
 
 .container {
@@ -76,6 +82,18 @@ button {
 }
 
 /* end global rulse */
+
+/* start Animation */
+.fade-in {
+  opacity: 0;
+  transition: 350ms ease-in;
+}
+
+.fade-in.show {
+  opacity: 1;
+}
+
+/* end Animation */
 
 /* start landing */
 
@@ -123,13 +141,12 @@ button {
 .track .holder .image img {
   width: 100%;
   position: relative;
-  right: 177px;
+  left: -177px;
 }
 
 @media (max-width: 991px) {
   .track .holder .image img {
-    margin: auto;
-    right: 0;
+    left: 0;
   }
 }
 
@@ -226,6 +243,7 @@ button {
 
   .footer .container ul li {
     padding-bottom: 22px;
+    text-align: left;
   }
 
   .footer .container span {
@@ -236,5 +254,4 @@ button {
 .footer .container ul:last-of-type {
   gap: 22px;
 }
-
 /* end footer */
