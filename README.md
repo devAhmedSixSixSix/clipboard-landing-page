@@ -1,5 +1,5 @@
 <h1 align="center">
- Welcome! 👋 Clipboard landing page.
+ Welcome! 👋 Clipboard landing page. 
 </h1>
 
 <p align="center">
